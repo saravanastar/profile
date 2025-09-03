@@ -1,0 +1,112 @@
+{
+    "name": "Poornima Kannappan",
+    "contact": {
+        "city": "Charlotte",
+        "state": "NC",
+        "mobileNumber": "+1 704-993-1612"
+    },
+    "social": [{
+        "linkedIn": {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/poornima-kannappan-17250424/"
+        }
+    }],
+    "other": [],
+    "profileSummary": {
+        "title": "Professional Summary",
+        "content": "Dynamic and innovative software engineer with over 8+ years of experience designing and delivering high-performance, scalable applications. Adept at building robust microservices architectures, leveraging cutting-edge cloud platforms like AWS, and utilizing containerization tools such as Docker and Kubernetes to streamline development and deployment. A proven leader in crafting efficient, reliable, and maintainable software solutions, with a passion for driving innovation, optimizing performance, and enhancing user experiences. Known for bridging the gap between technical excellence and business goals while fostering collaboration across cross-functional teams."
+    },
+    "skills": [{
+        "title": "Programming Languages",
+        "text": "Java (up to Java 17), Python, GOSU, Scala, Javascript, Typescript"
+    }, {
+        "title": "Frameworks",
+        "text": "Spring Boot, Hibernate, Akka"
+    }, {
+        "title": "Testing Frameworks",
+        "text": "Karate, Jasmine, Cypress, Selenium"
+    }, {
+        "title": "Frontend Development",
+        "text": "Angular 18, jQuery, HTML5, CSS3"
+    }, {
+        "title": "Cloud Platforms",
+        "text": "AWS (EKS, EC2, S3, Lambda, RDS)"
+    }, {
+        "title": "Messaging Systems",
+        "text": "Apache Kafka for real-time event streaming"
+    }, {
+        "title": "DevOps & CI/CD Tools",
+        "text": "Docker, Kubernetes, Jenkins CI/CD"
+    }, {
+        "title": "Databases",
+        "text": "MySQL, PostgreSQL (design, optimization, and management)"
+    }, {
+        "title": "Monitoring & Performance Tools",
+        "text": "Datadog for application performance monitoring"
+    }, {
+        "title": "Version Control & Collaboration",
+        "text": "Git, Maven, JIRA, Confluence"
+    }],
+    "experiences": [{
+        "title": "Consultant",
+        "company": "Capgemini Americas Inc",
+        "location": "Charlotte, NC",
+        "dates": "2023-Present",
+        "bullets": [
+            "Architected, designed, and developed highly scalable and performance-driven applications utilizing Java and Spring Boot, ensuring modularity and efficient code management.",
+            "Implemented microservices architecture to improve application scalability, maintainability, and fault isolation, enabling seamless deployment and efficient resource utilization.",
+            "Integrated Apache Kafka for real-time data streaming and processing, ensuring low-latency communication and high-throughput message handling across distributed systems.",
+            "Leveraged AWS cloud services, including EC2, S3, RDS, and Lambda, to build fault-tolerant, highly available, and cost-optimized solutions tailored to business needs.",
+            "Containerized applications using Docker to standardize environments and deployed them on Kubernetes clusters for automated orchestration, scalability, and resilience.",
+            "Automated build, test, and deployment pipelines using Jenkins CI/CD, significantly reducing deployment times and enhancing development productivity.",
+            "Monitored system performance and reliability using Datadog, proactively identifying and resolving bottlenecks to ensure optimal performance and minimal downtime.",
+            "Conducted rigorous testing, including load testing, stress testing, and performance benchmarking, to validate application robustness and ensure resilience under high-traffic conditions."
+        ]
+    }, {
+        "title": "Consultant",
+        "company": "Capgemini Americas Inc",
+        "location": "Charlotte, NC",
+        "dates": "2022-2023",
+        "bullets": [
+            "Developed, customized, and enhanced Guidewire applications (PolicyCenter, BillingCenter, and ClaimCenter) using GOSU programming language to meet diverse business requirements and improve operational efficiency across insurance workflows.",
+            "Collaborated extensively with stakeholders, business analysts, and project managers to gather, analyze, and translate business requirements into actionable technical solutions, ensuring alignment with organizational objectives.",
+            "Optimized user interfaces, workflows, and business rules to improve user experience and streamline key insurance processes, delivering a more intuitive and efficient system for end-users.",
+            "Implemented robust testing methodologies, including unit, integration, and system testing, to validate application functionality and maintain software quality, reliability, and compliance with industry standards.",
+            "Documented technical designs and enhancements to support ongoing maintenance, knowledge sharing, and scalability of the Guidewire platform."
+        ]
+    }, {
+        "title": "Associate-Projects",
+        "company": "Cognizant Technology Solutions",
+        "location": "Chennai, India",
+        "dates": "2014-2016",
+        "bullets": [
+            "Designed, developed, and maintained robust backend services leveraging Java and Spring Boot, ensuring scalability, maintainability, and performance for mission-critical applications.",
+            "Integrated Hibernate ORM framework to facilitate seamless and efficient database interactions, optimizing query performance and enabling smooth data handling across relational databases.",
+            "Engineered RESTful APIs to support seamless communication and integration between internal systems and external platforms, adhering to industry best practices for API design, security, and documentation.",
+            "Collaborated closely with cross-functional teams, including product managers, architects, and QA engineers, to gather requirements, define technical specifications, and deliver high-quality software solutions within tight deadlines.",
+            "Diagnosed and resolved complex technical issues, including performance bottlenecks and system failures, to enhance the overall stability, reliability, and responsiveness of applications, minimizing downtime and ensuring business continuity."
+        ]
+    }, {
+        "title": "Software Engineer",
+        "company": "Polaris Consulting & Services Ltd",
+        "location": "Chennai, India",
+        "dates": "2010-2014",
+        "bullets": [
+            "Architected, developed, and debugged complex stock broker applications to streamline stock transactions, portfolio management, and investment tracking, utilizing a wide array of technologies to ensure high performance, scalability, and security.",
+            "Designed and implemented dynamic, user-friendly web interfaces by converting wireframes into fully functional web pages using HTML5, CSS3, and JavaScript, ensuring seamless user experiences and responsiveness across devices.",
+            "Mentored and coached junior developers, providing technical guidance, best practice recommendations, and comprehensive code reviews to maintain code quality, improve team productivity, and foster a culture of continuous learning.",
+            "Led Proof of Concept (POC) initiatives to assess and integrate emerging technologies into existing platforms, enhancing system capabilities and aligning with evolving business needs."
+        ]
+    }],
+    "education": [{
+        "title": "Bachelor of Engineering in Computer Science",
+        "university": "Sudharsan Engineering College",
+        "location": "Pudukkottai, Tamil Nadu",
+        "dates": "2009"
+    }],
+    "certifications": [{
+        "title": "AWS Certified Cloud Practitioner"
+    }, {
+        "title": "Guidewire Certified Associate - InsuranceSuite Developer"
+        }]
+}
