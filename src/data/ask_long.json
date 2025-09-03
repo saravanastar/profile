@@ -1,0 +1,251 @@
+{
+  "name": "Saravanakumar Arunachalam",
+  "contact": {
+    "city": "Charlotte",
+    "state": "NC",
+    "mobileNumber": "+1 214-713-5765",
+    "email": "saravanastar@gmail.com"
+  },
+  "social": [{
+    "linkedIn": {
+      "name" : "LinkedIn",
+      "url": "https://www.linkedin.com/in/saravanakumar-arunachalam-a0173023"
+    }
+  }],
+  "other": [{
+    "github": {
+      "name": "GitHub",
+      "url": "https://github.com/saravanastar"
+    }
+  },{
+    "medium": {
+      "name": "Medium",
+      "url": "https://medium.com/@saravanastar"
+    }
+  }],
+  "profileSummary": {
+    "title": "Professional Summary",
+    "content": "Software engineering professional with over 14 years of experience specializing in cloud-native, microservice, and event-driven architectures. Proficient in Java, Go, Python, Spring, Kubernetes, and AWS, with expertise in developing scalable, secure, and high-performance solutions. Strong background in DevOps, CI/CD, and infrastructure automation using Terraform and Helm. Passionate about driving innovation and solving complex challenges in high-volume, high-velocity data systems. Versatile and results-driven Software and Platform Engineer with deep experience designing, developing, and integrating scalable, cloud-native systems. Proficient in modern cloud-native technologies including Knative, Istio, cert-manager, and serverless platforms. Experienced in implementing SRE best practices, including infrastructure automation, CI/CD pipelines, monitoring, and proactive incident response."
+  },
+  "skills": [{
+        "title": "Backend Development",
+        "text": "Java, Go, Python, NodeJS, Spring, Microservices, Event-Driven Design, gRPC, Protobuf"
+    },
+    {
+        "title": "Cloud & DevOps",
+        "text": "AWS, Kubernetes, Docker, Terraform, Helm, CloudFormation, AWS CDK, Knative, KEDA, Istio, cert-manager, Cloud Foundry (PCF), ECS, EC2, Lambda, SQS, SNS"
+    },
+    {
+        "title": "Streaming & Messaging",
+        "text": "Kafka, Kinesis, SQS, SNS, Flink"
+    },
+    {
+        "title": "Frontend Development",
+        "text": "HTML, CSS, JavaScript, Angular, ReactJS, Servlets, JSP"
+    },
+    {
+        "title": "Databases & Storage",
+        "text": "Oracle, Postgres, MySQL, MongoDB, ElasticSearch, DynamoDB, S3, Distributed Cache"
+    },
+    {
+        "title": "Design & Architecture",
+        "text": "DDD, CQRS, Circuit Breaker, Saga, Distributed Systems, Netflix OSS (Eureka, Hystrix, Feign, Ribbon, Zuul)"
+    },
+    {
+        "title": "Development Practices",
+        "text": "SOLID, TDD, Pair Programming, Agile (Scrum/Kanban), GitOps, CI/CD, Infrastructure as Code"
+    },
+    {
+        "title": "Observability & Monitoring",
+        "text": "Grafana, Loki, Splunk, Telemetry Tools"
+    },
+    {
+        "title": "Languages",
+        "text": "English (Professional Working), Tamil (Native or Bilingual)"
+    }
+  ],
+  "certifications": [
+    "LLM Foundations: Vector Databases for Caching and Retrieval Augmented Generation (RAG)",
+    "Introduction to Identity and Access Management",
+    "Writing Command Line Applications in Go",
+    "Problem Solving",
+    "Spring: Framework in Depth"
+  ],
+  "experiences": [
+    {
+        "title": "Software Engineer",
+        "company": "GEICO",
+        "location": "United States",
+        "dates": "Jun 2024 – Present",
+        "bullets": [
+            "Design and build a highly available, scalable serverless platform leveraging Knative, KEDA, Istio service mesh, and cert-manager on Kubernetes",
+            "Implement robust observability stacks using Grafana, Loki, and other telemetry tools to monitor system health",
+            "Manage Kubernetes infrastructure using Helm for packaging and ArgoCD for declarative, GitOps-based continuous delivery",
+            "Partner with product managers and stakeholders to analyze complex problems and define architecture requirements",
+            "Define and drive the technical roadmap for the platform engineering domain with focus on resilience and scalability",
+            "Participate in on-call rotations and own operational health of services with rapid incident response"
+        ]
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Fidelity Investments",
+        "location": "Raleigh-Durham-Chapel Hill Area",
+        "dates": "Apr 2024 – Jun 2024",
+        "bullets": [
+            "Developed and integrated cutting-edge algorithms for trading and cryptocurrency trading on Fidelity Digital Assets platform",
+            "Engaged with business partners to align technology solutions with business objectives",
+            "Promoted CI/CD practices to ensure agility and rapid delivery of high-quality solutions",
+            "Mentored junior team members on technological aspects and best practices",
+            "Collaborated with multiple stakeholders and cross-functional teams to ensure seamless work delivery"
+        ]
+    },
+    {
+        "title": "Software Engineer",
+        "company": "VMware Carbon Black",
+        "location": "United States",
+        "dates": "May 2022 – Apr 2024",
+        "bullets": [
+            "Engineered scalable microservices architecture handling 500,000+ transactions daily, improving reliability by 25% and reducing latency by 15%",
+            "Drove development of features and enhancements in event processing and alerting pipelines managing substantial events per second",
+            "Owned development and maintenance of alert data pipeline using gRPC, Protobuf, Kinesis Stream, and OpenSearch",
+            "Collaborated with Product Management, QA, and engineering teams to deliver effective security solutions",
+            "Demonstrated expertise in continuous deployment practices in production environment"
+        ]
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Lincoln Financial Group",
+        "location": "Greensboro",
+        "dates": "Dec 2019 – May 2022",
+        "bullets": [
+            "Reengineered contact center applications into scalable microservices solutions leveraging AWS cloud infrastructure",
+            "Developed proof of concepts for Zuul routing, custom Spring config server, config bus implementation, and streaming audio through Spring Boot services",
+            "Built microservices using AWS solutions including ECS, EC2, S3, DynamoDB, Lambda, and SQS",
+            "Implemented Splunk dashboards to monitor application performance and enable proactive issue resolution",
+            "Developed and maintained Admin UI applications for efficient configuration management of contact center applications",
+            "Conducted code reviews and provided mentorship to junior team members"
+        ]
+    },
+    {
+        "title": "Senior Software Engineer",
+        "company": "J.B. Hunt Transport Services",
+        "location": "Lowell, Arkansas Area",
+        "dates": "Mar 2018 – Dec 2019",
+        "bullets": [
+            "Spearheaded development and maintenance of micro-service applications for order management using Spring Boot, Cloud infrastructure, and Spring Data JPA",
+            "Supported order creation to tracking across business areas including Inter-modal, Truck, ICS, and DCS",
+            "Developed micro-services utilizing Netflix OSS stack tailored to specific use cases",
+            "Provided mentorship and guidance to junior team members on complex projects and technologies"
+        ]
+    },
+    {
+        "title": "Software Development Consultant",
+        "company": "Syntel",
+        "location": "Greater Atlanta Area",
+        "dates": "Oct 2016 – Feb 2018",
+        "bullets": [
+            "Developed MicroServices for Purchase Order Management using Spring Boot, Spring Cloud, Distributed Cache, and Java 8",
+            "Designed and implemented UI dashboards for monitoring and processing applications using Angular 4 and ReactJS",
+            "Implemented microservices using Netflix OSS stack (Eureka, Hystrix, Feign, Ribbon, Zuul)",
+            "Utilized Cloud Foundry (PCF) PaaS solutions for enhanced scalability and manageability",
+            "Developed Node.js applications integrated with MongoDB for specific functionalities",
+            "Engaged in Pair Programming and Test-Driven Development (TDD) practices"
+        ]
+    },
+    {
+        "title": "Senior Software Engineer",
+        "company": "Photon",
+        "location": "Greater Philadelphia Area",
+        "dates": "Oct 2015 – Oct 2016",
+        "bullets": [
+            "Led design and implementation of responsive web application for Lincoln Financial Group",
+            "Developed Restful APIs as backend interface and AngularJS templates for integration with WebLogic Portal",
+            "Designed microservices applications with focus on low coupling and high cohesion",
+            "Managed and mentored team, providing guidance and support for skill development",
+            "Worked within Agile Scrum methodology with sprint planning and daily stand-ups"
+        ]
+    },
+    {
+        "title": "Senior Software Engineer",
+        "company": "Photon",
+        "location": "Dallas/Fort Worth Area",
+        "dates": "Dec 2014 – Oct 2015",
+        "bullets": [
+            "Led end-to-end application development for JCPenney's responsive web presence",
+            "Analyzed service API gaps and developed REST wrappers to bridge discrepancies",
+            "Developed Spring REST services for efficient data exchange between application components",
+            "Focused on enhancing mobile browsing experience with responsive web applications",
+            "Implemented business logic in middle tier using Java classes and Java beans",
+            "Provided technical guidance and mentorship to team members"
+        ]
+    },
+    {
+        "title": "Software Engineer",
+        "company": "L&T Infotech",
+        "location": "Manappakkam, Chennai",
+        "dates": "Jan 2013 – Dec 2014",
+        "bullets": [
+            "Led end-to-end application development for Travelers insurance",
+            "Developed automated code generator tool to streamline and minimize coding efforts",
+            "Designed front-end screens using Servlets, HTML, CSS, and JavaScript",
+            "Implemented business logic in middle tier using Java classes and beans",
+            "Coordinated demonstrations to validate business requirements against application functionality"
+        ]
+    },
+    {
+        "title": "Software Engineer",
+        "company": "L&T Infotech",
+        "location": "Chennai Area, India",
+        "dates": "Oct 2011 – Dec 2012",
+        "bullets": [
+            "Developed application from scratch for Great Eastern Life insurance",
+            "Owned and maintained specific modules within the application",
+            "Utilized Spring Batch for implementation of pre-approved Loyalty cards",
+            "Introduced JQuery pop-ups throughout the application enhancing user experience",
+            "Addressed multi-browser compatibility issues across the portal",
+            "Developed Health Tip feature and implemented audit trails for user actions",
+            "Designed database schemas and maintained scripts for optimal performance",
+            "Supported local QA build processes and managed continuous integration"
+        ]
+    },
+    {
+        "title": "Software Developer",
+        "company": "IndigoTx Software Technologies",
+        "location": "Chennai Area, India",
+        "dates": "Apr 2010 – Sep 2011",
+        "bullets": [
+            "Owned end-to-end application development encompassing backend services and frontend interfaces",
+            "Designed, coded, and debugged stock broker applications using various software languages",
+            "Transformed wireframes into HTML web pages ensuring accurate design representation",
+            "Evaluated new technologies and conducted proof of concepts for implementation",
+            "Maintained compliance standards across development processes",
+            "Customized products to meet unique client requirements",
+            "Designed and documented RESTful APIs with cross-functional teams",
+            "Oversaw quality assurance and testing processes"
+        ]
+    },
+    {
+        "title": "Technical Analyst",
+        "company": "Sutherland Global Services",
+        "location": "India",
+        "dates": "Nov 2009 – Mar 2010",
+        "bullets": [
+            "Worked as Technical Analyst in non-voice process"
+        ]
+    }
+  ],
+  "education": [
+    {
+        "institution": "Sudharsan Engineering College",
+        "degree": "Bachelor's Degree",
+        "field": "Computer Science",
+        "dates": "2005 - 2009"
+    },
+    {
+        "institution": "Udacity",
+        "degree": "Nano Degree",
+        "field": "Machine Learning",
+        "dates": "2019"
+    }
+  ]
+}
