@@ -4,7 +4,38 @@ import os
 import json
 import sys
 from docx import Document
-from docx2pdf import convert
+import subprocess
+import platform
+
+def convert_to_pdf(docx_path):
+    pdf_path = docx_path.replace('.docx', '.pdf')
+    system = platform.system().lower()
+    
+    if system == 'darwin':  # macOS
+        cmd = ['soffice', '--headless', '--convert-to', 'pdf', docx_path, '--outdir', '.']
+    elif system == 'linux':
+        cmd = ['libreoffice', '--headless', '--convert-to', 'pdf', docx_path, '--outdir', '.']
+    elif system == 'windows':
+        try:
+            from docx2pdf import convert
+            convert(docx_path)
+            return
+        except Exception as e:
+            print(f"Warning: docx2pdf failed: {e}")
+            cmd = ['soffice', '--headless', '--convert-to', 'pdf', docx_path, '--outdir', '.']
+    
+    try:
+        subprocess.run(cmd, check=True)
+        print(f"PDF created successfully: {pdf_path}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error converting to PDF: {e}")
+        print("Please ensure LibreOffice is installed:")
+        if system == 'darwin':
+            print("brew install --cask libreoffice")
+        elif system == 'linux':
+            print("sudo apt-get install libreoffice")
+        elif system == 'windows':
+            print("Download from https://www.libreoffice.org/download/download/")
 
 def load_profile_data(profile_json=None):
     if profile_json is None:
@@ -68,5 +99,5 @@ file_path = f"./{profile['name']}_Resume.docx"
 
 
 doc.save(file_path)
-print("Convert to PDF")
-convert(file_path)
+print("Converting to PDF...")
+convert_to_pdf(file_path)
