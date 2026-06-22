@@ -24,7 +24,7 @@
   }],
   "profileSummary": {
     "title": "Professional Summary",
-    "content": "Backend-focused Software Engineer with 14+ years of experience designing and building highly available, reliable, and resilient distributed systems. Specialized in Golang, Java, and Python for backend platforms, APIs, and large-scale event-driven data pipelines. Proven expertise in designing architectures that ensure system stability, scalability, and observability. Strong hands-on experience with cloud-native technologies (AWS, Azure, Kubernetes), infrastructure automation (Terraform, Helm), and observability stacks (Grafana, Prometheus, Loki). Passionate about solving complex challenges in data-intensive environments while maintaining high performance and operational excellence."
+    "content": "Backend-focused Software Engineer with 14+ years of experience designing and building highly available, reliable, and resilient distributed systems. Specialized in Golang, Java, and Python for backend platforms, APIs, and large-scale event-driven data pipelines. Proven expertise in designing architectures that ensure system stability, scalability, and observability. Strong hands-on experience with cloud-native technologies (AWS, Azure, Kubernetes), infrastructure automation (Terraform, Helm), and observability stacks (Grafana, Prometheus, Loki). Currently a Senior Platform Engineer at GEICO in Charlotte, working in a hybrid setup on Kubernetes-native infrastructure and AI infrastructure. Passionate about solving complex challenges in data-intensive environments while maintaining high performance and operational excellence."
   },
   "skills": [{
       "title": "Backend & Distributed Systems",
@@ -53,7 +53,7 @@
   ],
   "experiences": [
     {
-      "title": "Senior Engineer - Platform",
+      "title": "Senior Platform Engineer",
       "company": "Geico",
       "location": "Charlotte, NC",
       "dates": "Jun 2024 – Present",
@@ -61,7 +61,8 @@
         "Architected and developed a serverless platform with high availability, stability, and resilience on Kubernetes.",
         "Designed and implemented BCDR (Business Continuity and Disaster Recovery) strategies, including data replication and failover mechanisms.",
         "Integrated observability stack (Grafana, Prometheus, Loki) to ensure proactive monitoring and operational reliability.",
-        "Delivered scalable CaaS/FaaS solutions leveraging Knative, KEDA, and Istio."
+        "Delivered scalable CaaS/FaaS solutions leveraging Knative, KEDA, and Istio.",
+        "Built Kubernetes-native infrastructure for production workloads, including Kafka pipelines, RAG pipelines, autoscaled inference, and agentic AI patterns."
       ]
     },
     {

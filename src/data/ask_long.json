@@ -25,7 +25,7 @@
   }],
   "profileSummary": {
     "title": "Professional Summary",
-    "content": "Software engineering professional with over 14 years of experience specializing in cloud-native, microservice, and event-driven architectures. Proficient in Java, Go, Python, Spring, Kubernetes, and AWS, with expertise in developing scalable, secure, and high-performance solutions. Strong background in DevOps, CI/CD, and infrastructure automation using Terraform and Helm. Passionate about driving innovation and solving complex challenges in high-volume, high-velocity data systems. Versatile and results-driven Software and Platform Engineer with deep experience designing, developing, and integrating scalable, cloud-native systems. Proficient in modern cloud-native technologies including Knative, Istio, cert-manager, and serverless platforms. Experienced in implementing SRE best practices, including infrastructure automation, CI/CD pipelines, monitoring, and proactive incident response."
+        "content": "Software and platform engineer with 14+ years of experience in cloud-native, microservices, and event-driven systems. Strong hands-on experience with Java, Go, Python, Spring Boot, Kubernetes, AWS, Terraform, and Helm. Currently a Senior Platform Engineer at GEICO in Charlotte, working in a hybrid setup on Kubernetes-native infrastructure, serverless platforms, AI infrastructure, and production operations. Experienced in observability, CI/CD, GitOps, SRE practices, and building scalable systems with Knative, Istio, KEDA, Kafka, Grafana, and Loki."
   },
   "skills": [{
         "title": "Backend Development",
@@ -41,7 +41,7 @@
     },
     {
         "title": "Frontend Development",
-        "text": "HTML, CSS, JavaScript, Angular, ReactJS, Servlets, JSP"
+        "text": "HTML, CSS, JavaScript, TypeScript, Angular, React.js, Servlets, JSP"
     },
     {
         "title": "Databases & Storage",
@@ -57,7 +57,7 @@
     },
     {
         "title": "Observability & Monitoring",
-        "text": "Grafana, Loki, Splunk, Telemetry Tools"
+        "text": "Grafana, Loki, Splunk, OpenSearch, Telemetry, Monitoring"
     },
     {
         "title": "Languages",
@@ -73,17 +73,18 @@
   ],
   "experiences": [
     {
-        "title": "Software Engineer",
+        "title": "Senior Platform Engineer",
         "company": "GEICO",
-        "location": "United States",
+        "location": "Charlotte, NC",
         "dates": "Jun 2024 – Present",
         "bullets": [
-            "Design and build a highly available, scalable serverless platform leveraging Knative, KEDA, Istio service mesh, and cert-manager on Kubernetes",
-            "Implement robust observability stacks using Grafana, Loki, and other telemetry tools to monitor system health",
-            "Manage Kubernetes infrastructure using Helm for packaging and ArgoCD for declarative, GitOps-based continuous delivery",
-            "Partner with product managers and stakeholders to analyze complex problems and define architecture requirements",
-            "Define and drive the technical roadmap for the platform engineering domain with focus on resilience and scalability",
-            "Participate in on-call rotations and own operational health of services with rapid incident response"
+            "Designed and built a highly available serverless platform on Kubernetes using Knative, KEDA, Istio service mesh, and cert-manager",
+            "Implemented observability with Grafana, Loki, and telemetry tooling to monitor system health and service reliability",
+            "Managed Kubernetes infrastructure with Helm and ArgoCD for declarative GitOps-based continuous delivery",
+            "Built and operated Kubernetes-native production workloads, including Knative services, Istio traffic management, KEDA autoscaling, and Kafka pipelines",
+            "Developed AI infrastructure for RAG pipelines on Kubernetes, autoscaled inference workloads, and agentic AI patterns",
+            "Partnered with product managers and stakeholders to define architecture requirements and technical roadmaps",
+            "Owned operational health through on-call support, incident response, and resilience-focused engineering"
         ]
     },
     {
@@ -92,11 +93,11 @@
         "location": "Raleigh-Durham-Chapel Hill Area",
         "dates": "Apr 2024 – Jun 2024",
         "bullets": [
-            "Developed and integrated cutting-edge algorithms for trading and cryptocurrency trading on Fidelity Digital Assets platform",
-            "Engaged with business partners to align technology solutions with business objectives",
-            "Promoted CI/CD practices to ensure agility and rapid delivery of high-quality solutions",
-            "Mentored junior team members on technological aspects and best practices",
-            "Collaborated with multiple stakeholders and cross-functional teams to ensure seamless work delivery"
+            "Developed and integrated trading and cryptocurrency workflows for the Fidelity Digital Assets platform",
+            "Aligned technology solutions with business objectives through collaboration with business partners and stakeholders",
+            "Promoted CI/CD practices to improve delivery speed and software quality",
+            "Mentored junior team members on technical implementation and engineering best practices",
+            "Collaborated with cross-functional teams to deliver work efficiently and reliably"
         ]
     },
     {
@@ -105,11 +106,12 @@
         "location": "United States",
         "dates": "May 2022 – Apr 2024",
         "bullets": [
-            "Engineered scalable microservices architecture handling 500,000+ transactions daily, improving reliability by 25% and reducing latency by 15%",
-            "Drove development of features and enhancements in event processing and alerting pipelines managing substantial events per second",
-            "Owned development and maintenance of alert data pipeline using gRPC, Protobuf, Kinesis Stream, and OpenSearch",
-            "Collaborated with Product Management, QA, and engineering teams to deliver effective security solutions",
-            "Demonstrated expertise in continuous deployment practices in production environment"
+            "Engineered scalable microservices architecture processing 500,000+ transactions daily, improving reliability by 25% and reducing latency by 15%",
+            "Developed event processing and alerting pipelines handling high event throughput per second",
+            "Owned an alert data pipeline using gRPC, Protobuf, Kinesis, and OpenSearch",
+            "Built an event-driven email notification application in TypeScript for alerting and customer communication workflows",
+            "Collaborated with product, QA, and engineering teams to deliver security solutions",
+            "Applied continuous deployment practices in a production environment"
         ]
     },
     {
@@ -118,12 +120,13 @@
         "location": "Greensboro",
         "dates": "Dec 2019 – May 2022",
         "bullets": [
-            "Reengineered contact center applications into scalable microservices solutions leveraging AWS cloud infrastructure",
-            "Developed proof of concepts for Zuul routing, custom Spring config server, config bus implementation, and streaming audio through Spring Boot services",
-            "Built microservices using AWS solutions including ECS, EC2, S3, DynamoDB, Lambda, and SQS",
-            "Implemented Splunk dashboards to monitor application performance and enable proactive issue resolution",
-            "Developed and maintained Admin UI applications for efficient configuration management of contact center applications",
-            "Conducted code reviews and provided mentorship to junior team members"
+            "Reengineered contact center applications into scalable microservices on AWS",
+            "Developed proof-of-concept solutions for Zuul routing, Spring Cloud Config, config bus, and streaming audio services",
+            "Built microservices using ECS, EC2, S3, DynamoDB, Lambda, and SQS",
+            "Developed Angular and TypeScript applications for configuration and administration workflows",
+            "Implemented Splunk dashboards to monitor application performance and support proactive issue resolution",
+            "Developed and maintained admin UI applications for configuration management",
+            "Conducted code reviews and mentored junior team members"
         ]
     },
     {
@@ -132,9 +135,9 @@
         "location": "Lowell, Arkansas Area",
         "dates": "Mar 2018 – Dec 2019",
         "bullets": [
-            "Spearheaded development and maintenance of micro-service applications for order management using Spring Boot, Cloud infrastructure, and Spring Data JPA",
-            "Supported order creation to tracking across business areas including Inter-modal, Truck, ICS, and DCS",
-            "Developed micro-services utilizing Netflix OSS stack tailored to specific use cases",
+            "Spearheaded development and maintenance of microservice applications for order management using Spring Boot, cloud infrastructure, and Spring Data JPA",
+            "Supported order creation and tracking across intermodal, truck, ICS, and DCS business areas",
+            "Developed microservices using the Netflix OSS stack for specific use cases",
             "Provided mentorship and guidance to junior team members on complex projects and technologies"
         ]
     },
@@ -144,12 +147,12 @@
         "location": "Greater Atlanta Area",
         "dates": "Oct 2016 – Feb 2018",
         "bullets": [
-            "Developed MicroServices for Purchase Order Management using Spring Boot, Spring Cloud, Distributed Cache, and Java 8",
-            "Designed and implemented UI dashboards for monitoring and processing applications using Angular 4 and ReactJS",
-            "Implemented microservices using Netflix OSS stack (Eureka, Hystrix, Feign, Ribbon, Zuul)",
-            "Utilized Cloud Foundry (PCF) PaaS solutions for enhanced scalability and manageability",
+            "Developed microservices for purchase order management using Spring Boot, Spring Cloud, distributed cache, and Java 8",
+            "Designed and implemented UI dashboards for monitoring and processing applications using Angular and React.js",
+            "Implemented microservices using the Netflix OSS stack (Eureka, Hystrix, Feign, Ribbon, Zuul)",
+            "Used Cloud Foundry (PCF) PaaS solutions for scalability and manageability",
             "Developed Node.js applications integrated with MongoDB for specific functionalities",
-            "Engaged in Pair Programming and Test-Driven Development (TDD) practices"
+            "Applied pair programming and test-driven development (TDD) practices"
         ]
     },
     {
@@ -158,10 +161,10 @@
         "location": "Greater Philadelphia Area",
         "dates": "Oct 2015 – Oct 2016",
         "bullets": [
-            "Led design and implementation of responsive web application for Lincoln Financial Group",
-            "Developed Restful APIs as backend interface and AngularJS templates for integration with WebLogic Portal",
-            "Designed microservices applications with focus on low coupling and high cohesion",
-            "Managed and mentored team, providing guidance and support for skill development",
+            "Led design and implementation of a responsive web application for Lincoln Financial Group",
+            "Developed RESTful APIs and AngularJS templates for integration with WebLogic Portal",
+            "Designed microservice applications with a focus on low coupling and high cohesion",
+            "Managed and mentored the team, providing guidance and support for skill development",
             "Worked within Agile Scrum methodology with sprint planning and daily stand-ups"
         ]
     },
@@ -172,10 +175,10 @@
         "dates": "Dec 2014 – Oct 2015",
         "bullets": [
             "Led end-to-end application development for JCPenney's responsive web presence",
-            "Analyzed service API gaps and developed REST wrappers to bridge discrepancies",
-            "Developed Spring REST services for efficient data exchange between application components",
-            "Focused on enhancing mobile browsing experience with responsive web applications",
-            "Implemented business logic in middle tier using Java classes and Java beans",
+            "Analyzed service API gaps and developed REST wrappers to bridge integration issues",
+            "Developed Spring REST services for data exchange between application components",
+            "Improved mobile browsing experience with responsive web applications",
+            "Implemented business logic in the middle tier using Java classes and JavaBeans",
             "Provided technical guidance and mentorship to team members"
         ]
     },
@@ -185,10 +188,10 @@
         "location": "Manappakkam, Chennai",
         "dates": "Jan 2013 – Dec 2014",
         "bullets": [
-            "Led end-to-end application development for Travelers insurance",
-            "Developed automated code generator tool to streamline and minimize coding efforts",
+            "Led end-to-end application development for Travelers Insurance",
+            "Developed an automated code generator to reduce manual coding effort",
             "Designed front-end screens using Servlets, HTML, CSS, and JavaScript",
-            "Implemented business logic in middle tier using Java classes and beans",
+            "Implemented business logic in the middle tier using Java classes and beans",
             "Coordinated demonstrations to validate business requirements against application functionality"
         ]
     },
@@ -198,10 +201,10 @@
         "location": "Chennai Area, India",
         "dates": "Oct 2011 – Dec 2012",
         "bullets": [
-            "Developed application from scratch for Great Eastern Life insurance",
+            "Developed an application from scratch for Great Eastern Life Insurance",
             "Owned and maintained specific modules within the application",
-            "Utilized Spring Batch for implementation of pre-approved Loyalty cards",
-            "Introduced JQuery pop-ups throughout the application enhancing user experience",
+            "Used Spring Batch to implement pre-approved loyalty cards",
+            "Introduced jQuery pop-ups throughout the application to improve user experience",
             "Addressed multi-browser compatibility issues across the portal",
             "Developed Health Tip feature and implemented audit trails for user actions",
             "Designed database schemas and maintained scripts for optimal performance",
@@ -215,7 +218,7 @@
         "dates": "Apr 2010 – Sep 2011",
         "bullets": [
             "Owned end-to-end application development encompassing backend services and frontend interfaces",
-            "Designed, coded, and debugged stock broker applications using various software languages",
+            "Designed, coded, and debugged stock broker applications using multiple programming languages",
             "Transformed wireframes into HTML web pages ensuring accurate design representation",
             "Evaluated new technologies and conducted proof of concepts for implementation",
             "Maintained compliance standards across development processes",

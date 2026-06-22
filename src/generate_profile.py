@@ -3,18 +3,28 @@
 import os
 import json
 import sys
+import shutil
 from docx import Document
 import subprocess
 import platform
 
 def convert_to_pdf(docx_path):
     pdf_path = docx_path.replace('.docx', '.pdf')
+    output_dir = os.path.dirname(docx_path) or '.'
     system = platform.system().lower()
     
     if system == 'darwin':  # macOS
-        cmd = ['soffice', '--headless', '--convert-to', 'pdf', docx_path, '--outdir', '.']
+        converter = shutil.which('soffice') or shutil.which('libreoffice')
+        if converter is None:
+            print("Warning: LibreOffice/soffice not found. Skipping PDF conversion and keeping the DOCX output.")
+            return
+        cmd = [converter, '--headless', '--convert-to', 'pdf', docx_path, '--outdir', output_dir]
     elif system == 'linux':
-        cmd = ['libreoffice', '--headless', '--convert-to', 'pdf', docx_path, '--outdir', '.']
+        converter = shutil.which('libreoffice') or shutil.which('soffice')
+        if converter is None:
+            print("Warning: LibreOffice/soffice not found. Skipping PDF conversion and keeping the DOCX output.")
+            return
+        cmd = [converter, '--headless', '--convert-to', 'pdf', docx_path, '--outdir', output_dir]
     elif system == 'windows':
         try:
             from docx2pdf import convert
@@ -22,7 +32,11 @@ def convert_to_pdf(docx_path):
             return
         except Exception as e:
             print(f"Warning: docx2pdf failed: {e}")
-            cmd = ['soffice', '--headless', '--convert-to', 'pdf', docx_path, '--outdir', '.']
+            converter = shutil.which('soffice') or shutil.which('libreoffice')
+            if converter is None:
+                print("Warning: LibreOffice/soffice not found. Skipping PDF conversion and keeping the DOCX output.")
+                return
+            cmd = [converter, '--headless', '--convert-to', 'pdf', docx_path, '--outdir', output_dir]
     
     try:
         subprocess.run(cmd, check=True)
@@ -53,6 +67,7 @@ def load_profile_data(profile_json=None):
 profile_json = sys.argv[1] if len(sys.argv) > 1 else None
 # Usage: pass the file name as a parameter or set PROFILE_JSON env variable
 profile = load_profile_data(profile_json)
+repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 doc = Document()
 
 # Name and Contact
@@ -95,7 +110,7 @@ for exp in profile.get("experiences", []):
 doc.add_heading("Education & Certifications", level=2)
 doc.add_paragraph("Bachelor of Engineering – Computer Science, Anna University")
 doc.add_paragraph("AWS Certified Solutions Architect – Associate")
-file_path = f"./{profile['name']}_Resume.docx"
+file_path = os.path.join(repo_root, f"{profile['name'].replace(' ', '_')}_Resume.docx")
 
 
 doc.save(file_path)

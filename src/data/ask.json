@@ -24,7 +24,7 @@
   }],
   "profileSummary": {
     "title": "Professional Summary",
-    "content": "Software engineering professional with over 14 years of experience specializing in cloud-native, microservice, and event-driven architectures. Proficient in Java, Go, Python, Spring, Kubernetes, and AWS, with expertise in developing scalable, secure, and high-performance solutions. Strong background in DevOps, CI/CD, and infrastructure automation using Terraform and Helm. Passionate about driving innovation and solving complex challenges in high-volume, high-velocity data systems."
+        "content": "Software engineering professional with over 14 years of experience specializing in cloud-native, microservice, and event-driven architectures. Proficient in Java, Go, Python, Spring, Kubernetes, and AWS, with expertise in developing scalable, secure, and high-performance solutions. Strong background in DevOps, CI/CD, and infrastructure automation using Terraform and Helm. Currently a Senior Platform Engineer at GEICO in Charlotte, working in a hybrid setup on Kubernetes-native infrastructure, AI infrastructure, and production-grade serverless systems. Passionate about driving innovation and solving complex challenges in high-volume, high-velocity data systems."
   },
   "skills": [{
         "title": "Backend Development",
@@ -40,7 +40,7 @@
     },
     {
         "title": "Frontend Development",
-        "text": "HTML, CSS, JavaScript, Angular, ReactJS"
+        "text": "HTML, CSS, JavaScript, TypeScript, Angular, ReactJS"
     },
     {
         "title": "Databases & Storage",
@@ -57,15 +57,15 @@
 ],
   "experiences": [
     {
-        "title": "Senior Engineer - Platform",
+        "title": "Senior Platform Engineer",
         "company": "Geico",
         "location": "Charlotte, NC",
         "dates": "Jun 2024 – Present",
         "bullets": [
             "Designed and developed a serverless platform leveraging Knative, KEDA, Istio, and cert-manager on Kubernetes.",
             "Deployed container-as-a-service (CaaS) and function-as-a-service (FaaS) solutions to support scalable, performance-driven architectures.",
-            "Led cross-functional collaboration to solve complex challenges, ensuring high-quality, user-focused results.",
-            "Improved operational efficiency through process enhancements and technical strategy execution.",
+            "Built and operated Kubernetes-native infrastructure for production workloads, including Knative, Istio, KEDA, and Kafka pipelines.",
+            "Developed AI infrastructure capabilities such as RAG pipelines on Kubernetes, autoscaled inference workloads, and agentic AI patterns.",
             "Implemented observability tools, including Loki and Grafana, into the serverless platform to enable continuous monitoring, streamline issue detection, and enhance system reliability."
         ]
     },
