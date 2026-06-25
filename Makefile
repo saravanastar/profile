@@ -7,7 +7,7 @@ PROJECT_DIR := src
 SCRIPT := src/generate_profile.py
 OUTPUT_NAME := Saravanakumar_Arunachalam_Resume
 
-.PHONY: help build clean pdf long ask short poorni setup bootstrap
+.PHONY: help build clean pdf long ask short poorni infra setup bootstrap
 
 help:
 	@echo "Targets:"
@@ -18,12 +18,13 @@ help:
 	@echo "  make ask           Generate using ask.json"
 	@echo "  make short         Generate using ask_short.json"
 	@echo "  make poorni        Generate using poorni.json"
+	@echo "  make infra         Generate using ask_infra.json"
 	@echo "  make pdf           Alias for build"
 	@echo "  make clean         Remove generated resume files"
 	@echo "  make help          Show this help"
 	@echo ""
 	@echo "Variables:"
-	@echo "  PROFILE_JSON=ask_long.json|ask.json|ask_short.json|poorni.json"
+	@echo "  PROFILE_JSON=ask_long.json|ask.json|ask_short.json|poorni.json|ask_infra.json"
 	@echo "  VENV_DIR=.venv"
 	@echo "  PYTHON=python3"
 
@@ -55,3 +56,6 @@ poorni:
 
 clean:
 	rm -f "$(OUTPUT_NAME).docx" "$(OUTPUT_NAME).pdf" "src/$(OUTPUT_NAME).docx" "src/$(OUTPUT_NAME).pdf" "Saravanakumar_Resume.docx" "Saravanakumar_Resume.pdf"
+
+infra:
+	$(MAKE) bootstrap PROFILE_JSON=ask_infra.json
