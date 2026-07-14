@@ -87,12 +87,13 @@
     {
       "name": "rag-pipeline-k8s",
       "description": "End-to-end RAG pipeline on Kubernetes with KEDA autoscaled inference workloads",
-      "link": "github.com/saravanastar",
+      "link": "https://github.com/saravanastar/rag-pipeline-k8s",
       "dates": "Jun 2026"
     },
     {
       "name": "keda-triton-autoscaling",
       "description": "GPU inference autoscaling with KEDA + Triton on Kubernetes",
+      "link": "https://github.com/saravanastar/llm-inference-k8s",
       "dates": "In Progress"
     }
   ],

@@ -3,7 +3,8 @@
   "contact": {
     "city": "Charlotte",
     "state": "NC",
-    "mobileNumber": "+1 214-713-5765"
+    "mobileNumber": "+1 214-713-5765",
+    "email": "saravanastar@gmail.com"
   },
   "social": [{
     "linkedIn": {
@@ -120,6 +121,39 @@
         "Worked on distributed APIs, backend services, and cloud migration projects.",
         "Mentored engineers and enforced practices for resilience, observability, and operational stability."
       ]
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect – Associate",
+    "Certified Kubernetes Administrator (CKA) — In Progress, Expected Sep 2026",
+    "NVIDIA Certified Associate – AI Infrastructure & Operations (NCA-AIIO) — Planned Dec 2026"
+  ],
+  "projects": [
+    {
+      "name": "rag-pipeline-k8s",
+      "description": "End-to-end RAG pipeline on Kubernetes with KEDA autoscaled inference workloads",
+      "link": "https://github.com/saravanastar/rag-pipeline-k8s",
+      "dates": "Jun 2026"
+    },
+    {
+      "name": "keda-triton-autoscaling",
+      "description": "GPU inference autoscaling with KEDA + Triton on Kubernetes",
+      "link": "https://github.com/saravanastar/llm-inference-k8s",
+      "dates": "In Progress"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sudharsan Engineering College",
+      "degree": "Bachelor's Degree",
+      "field": "Computer Science",
+      "dates": "2005 - 2009"
+    },
+    {
+      "institution": "Udacity",
+      "degree": "Nano Degree",
+      "field": "Machine Learning",
+      "dates": "2019"
     }
   ]
 }

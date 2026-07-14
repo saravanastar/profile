@@ -12,6 +12,7 @@ def convert_to_pdf(docx_path):
     pdf_path = docx_path.replace('.docx', '.pdf')
     output_dir = os.path.dirname(docx_path) or '.'
     system = platform.system().lower()
+    cmd = None
     
     if system == 'darwin':  # macOS
         converter = shutil.which('soffice') or shutil.which('libreoffice')
@@ -38,6 +39,9 @@ def convert_to_pdf(docx_path):
                 return
             cmd = [converter, '--headless', '--convert-to', 'pdf', docx_path, '--outdir', output_dir]
     
+    if cmd is None:
+        print(f"Warning: Unsupported OS '{system}'. Skipping PDF conversion; DOCX kept.")
+        return
     try:
         subprocess.run(cmd, check=True)
         print(f"PDF created successfully: {pdf_path}")
@@ -77,15 +81,18 @@ contact = profile.get("contact", {})
 city = contact.get("city", "")
 state = contact.get("state", "")
 mobile = contact.get("mobileNumber", "")
-doc.add_paragraph(f"{city}, {state} | {mobile}")
+email = contact.get("email", "")
+location = ", ".join(part for part in [city, state] if part)
+contact_parts = [p for p in [location, mobile, email] if p]
+doc.add_paragraph(" | ".join(contact_parts))
 # Social links
 social_lines = []
 for s in profile.get("social", []):
     for k, v in s.items():
-        social_lines.append(f"{v.get('name')}: {v.get('url')}")
+        social_lines.append(f"{v.get('name')}: {(v.get('url') or '').strip()}")
 for o in profile.get("other", []):
     for k, v in o.items():
-        social_lines.append(f"{v.get('name')}: {v.get('url')}")
+        social_lines.append(f"{v.get('name')}: {(v.get('url') or '').strip()}")
 for line in social_lines:
     doc.add_paragraph(line)
 # Summary
@@ -106,10 +113,42 @@ for exp in profile.get("experiences", []):
     doc.add_paragraph(f"{exp['location']} | {exp['dates']}")
     for bullet in exp.get("bullets", []):
         doc.add_paragraph(bullet, style="List Bullet")
-# Education & Certifications
+# Projects (optional, data-driven)
+projects = profile.get("projects", [])
+if projects:
+    doc.add_heading("Projects", level=2)
+    for proj in projects:
+        para = doc.add_paragraph()
+        name_run = para.add_run(proj.get("name", ""))
+        name_run.bold = True
+        dates = proj.get("dates", "")
+        if dates:
+            para.add_run(f" ({dates})")
+        desc = proj.get("description", "")
+        if desc:
+            para.add_run(f" \u2014 {desc}")
+        link = (proj.get("link") or "").strip()
+        if link:
+            doc.add_paragraph(link)
+
+# Education & Certifications (data-driven with fallbacks)
 doc.add_heading("Education & Certifications", level=2)
-doc.add_paragraph("Bachelor of Engineering – Computer Science, Anna University")
-doc.add_paragraph("AWS Certified Solutions Architect – Associate")
+education = profile.get("education", [])
+if education:
+    for edu in education:
+        left = " \u2013 ".join(part for part in [edu.get("degree", ""), edu.get("field", "")] if part)
+        segments = [seg for seg in [left, edu.get("institution", ""), edu.get("dates", "")] if seg]
+        doc.add_paragraph(", ".join(segments))
+else:
+    doc.add_paragraph("Bachelor of Engineering \u2013 Computer Science, Anna University")
+
+certifications = profile.get("certifications", [])
+if certifications:
+    for cert in certifications:
+        doc.add_paragraph(cert, style="List Bullet")
+else:
+    doc.add_paragraph("AWS Certified Solutions Architect \u2013 Associate")
+
 file_path = os.path.join(repo_root, f"{profile['name'].replace(' ', '_')}_Resume.docx")
 
 
