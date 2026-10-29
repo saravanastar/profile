@@ -10,32 +10,38 @@ Medium: <https://medium.com/@saravanastar>
 
 ## Professional Summary
 
-Backend-focused Software Engineer with 14+ years of experience designing and building highly available, reliable, and resilient distributed systems. Specialized in Golang, Java, and Python for backend platforms, APIs, and large-scale event-driven data pipelines. Proven expertise in designing architectures that ensure system stability, scalability, and observability. Strong hands-on experience with cloud-native technologies (AWS, Azure, Kubernetes), infrastructure automation (Terraform, Helm), and observability stacks (Grafana, Prometheus, Loki). Passionate about solving complex challenges in data-intensive environments while maintaining high performance and operational excellence.
+Backend-focused Software Engineer with 15+ years of experience designing and building highly available, reliable, and resilient distributed systems. Specialized in Golang, Java, and Python for backend platforms, APIs, and large-scale event-driven data pipelines. Proven expertise in designing architectures that ensure system stability, scalability, and observability. Strong hands-on experience with cloud-native technologies (AWS, Azure, Kubernetes), infrastructure automation (Terraform, Helm), and observability stacks (Grafana, Prometheus, Loki). Currently a Senior Platform Engineer at GEICO in Charlotte, building and leading end-to-end delivery of Kubernetes-native AI infrastructure — RAG pipelines, autoscaled LLM inference, and agentic AI patterns. Passionate about solving complex challenges in data-intensive environments while maintaining high performance and operational excellence.
 
 ## Skills
 
+**AI/ML & GenAI:** RAG Pipelines, LLM Inference & Serving, Agentic AI Patterns, Vector Databases & Embeddings, Prompt Engineering, Triton Inference Server, KEDA GPU Autoscaling, LLMOps, Model Deployment & Monitoring
+
 **Backend & Distributed Systems:** Golang, Java, Python, Spring Boot, REST, gRPC, Microservices, System Design
 
-**Data & Streaming:** Kafka, Kinesis, Pub/Sub, Flink, Event-Driven Architecture, High-Throughput Pipelines
+**Data & Streaming:** Kafka, Kinesis, Pub/Sub, Flink, Event-Driven Architecture, High-Throughput Pipelines, Stream Processing, Real-time Analytics
 
-**Cloud & DevOps:** AWS, Azure, Kubernetes, Docker, Terraform, Helm, Jenkins, CloudFormation
+**Cloud & DevOps:** AWS, Azure, Kubernetes, Docker, Terraform, Helm, Jenkins, CloudFormation, Knative, KEDA, Istio, Service Mesh
 
 **Databases & Storage:** Postgres, MySQL, Oracle, MongoDB, DynamoDB, ElasticSearch, S3
 
-**Reliability & Observability:** Grafana, Prometheus, Loki, Jaeger, Resilience Engineering, High Availability, Fault Tolerance, BCDR
+**Reliability & Observability:** Grafana, Prometheus, Loki, Jaeger, SRE, Resilience Engineering, High Availability, Fault Tolerance, BCDR
 
-**Architecture & Practices:** Distributed Systems, CQRS, DDD, Scalability, TDD, CI/CD, Agile (Scrum/Kanban)
+**Leadership & Delivery:** Technical Leadership, Project Leadership, Team Mentoring, Cross-functional Collaboration, Stakeholder Management, Agile (Scrum/Kanban)
+
+**Architecture & Practices:** Distributed Systems, CQRS, DDD, Scalability, TDD, CI/CD
 
 ## Professional Experience
 
-### Senior Engineer - Platform – Geico
+### Senior Platform Engineer – Geico
 
 Charlotte, NC | Jun 2024 – Present
 
+- Leading end-to-end design, build, and delivery of AI platform initiatives — owning architecture, implementation, and production operations for RAG pipelines, autoscaled inference, and agentic AI workloads.
 - Architected and developed a serverless platform with high availability, stability, and resilience on Kubernetes.
 - Designed and implemented BCDR (Business Continuity and Disaster Recovery) strategies, including data replication and failover mechanisms.
 - Integrated observability stack (Grafana, Prometheus, Loki) to ensure proactive monitoring and operational reliability.
 - Delivered scalable CaaS/FaaS solutions leveraging Knative, KEDA, and Istio.
+- Built Kubernetes-native infrastructure for production workloads, including Kafka pipelines, RAG pipelines, autoscaled inference, and agentic AI patterns.
 
 ### Senior Software Engineer – Fidelity Investments (Contract)
 
@@ -78,8 +84,16 @@ Multiple | 2010 – 2018
 - Worked on distributed APIs, backend services, and cloud migration projects.
 - Mentored engineers and enforced practices for resilience, observability, and operational stability.
 
+## Projects
+
+**rag-pipeline-k8s** — End-to-end RAG pipeline on Kubernetes with KEDA autoscaled inference workloads. <https://github.com/saravanastar/rag-pipeline-k8s>
+
+**keda-triton-autoscaling** — GPU inference autoscaling with KEDA + Triton on Kubernetes. <https://github.com/saravanastar/llm-inference-k8s>
+
 ## Education & Certifications
 
-Bachelor of Engineering – Computer Science, Anna University
+Bachelor's Degree – Computer Science, Sudharsan Engineering College (2005 – 2009)
+
+Nano Degree – Machine Learning, Udacity (2019)
 
 AWS Certified Solutions Architect – Associate
