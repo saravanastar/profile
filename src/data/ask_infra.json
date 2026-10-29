@@ -75,8 +75,6 @@
     }
   ],
   "certifications": [
-    "Certified Kubernetes Administrator (CKA) — In Progress, Expected Sep 2026",
-    "NVIDIA Certified Associate – AI Infrastructure & Operations (NCA-AIIO) — Planned Dec 2026",
     "LLM Foundations: Vector Databases for Caching and Retrieval Augmented Generation (RAG)",
     "Introduction to Identity and Access Management",
     "Writing Command Line Applications in Go",
