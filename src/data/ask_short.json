@@ -25,19 +25,23 @@
   }],
   "profileSummary": {
     "title": "Professional Summary",
-    "content": "Backend-focused Software Engineer with 14+ years of experience designing and building highly available, reliable, and resilient distributed systems. Specialized in Golang, Java, and Python for backend platforms, APIs, and large-scale event-driven data pipelines. Proven expertise in designing architectures that ensure system stability, scalability, and observability. Strong hands-on experience with cloud-native technologies (AWS, Azure, Kubernetes), infrastructure automation (Terraform, Helm), and observability stacks (Grafana, Prometheus, Loki). Currently a Senior Platform Engineer at GEICO in Charlotte, working in a hybrid setup on Kubernetes-native infrastructure and AI infrastructure. Passionate about solving complex challenges in data-intensive environments while maintaining high performance and operational excellence."
+    "content": "Backend-focused Software Engineer with 15+ years of experience designing and building highly available, reliable, and resilient distributed systems. Specialized in Golang, Java, and Python for backend platforms, APIs, and large-scale event-driven data pipelines. Proven expertise in designing architectures that ensure system stability, scalability, and observability. Strong hands-on experience with cloud-native technologies (AWS, Azure, Kubernetes), infrastructure automation (Terraform, Helm), and observability stacks (Grafana, Prometheus, Loki). Currently a Senior Platform Engineer at GEICO in Charlotte, building and leading end-to-end delivery of Kubernetes-native AI infrastructure — RAG pipelines, autoscaled LLM inference, and agentic AI patterns. Passionate about solving complex challenges in data-intensive environments while maintaining high performance and operational excellence."
   },
   "skills": [{
+      "title": "AI/ML & GenAI",
+      "text": "RAG Pipelines, LLM Inference & Serving, Agentic AI Patterns, Vector Databases & Embeddings, Prompt Engineering, Triton Inference Server, KEDA GPU Autoscaling, LLMOps, Model Deployment & Monitoring"
+    },
+    {
       "title": "Backend & Distributed Systems",
       "text": "Golang, Java, Python, Spring Boot, REST, gRPC, Microservices, System Design"
     },
     {
       "title": "Data & Streaming",
-      "text": "Kafka, Kinesis, Pub/Sub, Flink, Event-Driven Architecture, High-Throughput Pipelines"
+      "text": "Kafka, Kinesis, Pub/Sub, Flink, Event-Driven Architecture, High-Throughput Pipelines, Stream Processing, Real-time Analytics"
     },
     {
       "title": "Cloud & DevOps",
-      "text": "AWS, Azure, Kubernetes, Docker, Terraform, Helm, Jenkins, CloudFormation"
+      "text": "AWS, Azure, Kubernetes, Docker, Terraform, Helm, Jenkins, CloudFormation, Knative, KEDA, Istio, Service Mesh"
     },
     {
       "title": "Databases & Storage",
@@ -45,11 +49,15 @@
     },
     {
       "title": "Reliability & Observability",
-      "text": "Grafana, Prometheus, Loki, Jaeger, Resilience Engineering, High Availability, Fault Tolerance, BCDR"
+      "text": "Grafana, Prometheus, Loki, Jaeger, SRE, Resilience Engineering, High Availability, Fault Tolerance, BCDR"
+    },
+    {
+      "title": "Leadership & Delivery",
+      "text": "Technical Leadership, Project Leadership, Team Mentoring, Cross-functional Collaboration, Stakeholder Management, Agile (Scrum/Kanban)"
     },
     {
       "title": "Architecture & Practices",
-      "text": "Distributed Systems, CQRS, DDD, Scalability, TDD, CI/CD, Agile (Scrum/Kanban)"
+      "text": "Distributed Systems, CQRS, DDD, Scalability, TDD, CI/CD"
     }
   ],
   "experiences": [
@@ -59,6 +67,7 @@
       "location": "Charlotte, NC",
       "dates": "Jun 2024 – Present",
       "bullets": [
+        "Leading end-to-end design, build, and delivery of AI platform initiatives — owning architecture, implementation, and production operations for RAG pipelines, autoscaled inference, and agentic AI workloads.",
         "Architected and developed a serverless platform with high availability, stability, and resilience on Kubernetes.",
         "Designed and implemented BCDR (Business Continuity and Disaster Recovery) strategies, including data replication and failover mechanisms.",
         "Integrated observability stack (Grafana, Prometheus, Loki) to ensure proactive monitoring and operational reliability.",
